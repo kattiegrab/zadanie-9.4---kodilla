@@ -1,6 +1,6 @@
 // Draw Christmas Tree :)
 
-function drawTree(n) {
+ function drawTree(n) {
 	for (var i = 1; i < n; i++) {
 			var star = " ";
 		for (var j = 1; j <i; j++) {
@@ -10,6 +10,7 @@ function drawTree(n) {
 	}
 }
 
-drawTree(10)
+drawTree(10);
+
 
 
